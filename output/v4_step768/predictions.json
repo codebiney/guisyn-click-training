@@ -1,0 +1,1374 @@
+{
+  "source_predictions": "/home/codebiney/project/robot_sim/molmo2/molmo/runs/qwen2.5-vl-3b-guisyn-v4/validation-768.json",
+  "summary": {
+    "step": 768,
+    "selection_error": 95.42911175983198,
+    "examples": 48,
+    "valid_coordinates": 48,
+    "valid_rate": 1.0,
+    "bbox_hits": 24,
+    "bbox_accuracy": 0.5,
+    "screenshot_macro_bbox_accuracy": 0.5,
+    "exact_center_matches": 0,
+    "center_within_normalized_units": {
+      "10": 0.20833333333333334,
+      "25": 0.4791666666666667,
+      "50": 0.6666666666666666,
+      "100": 0.7916666666666666
+    },
+    "invalid_predictions_count_as_misses": true,
+    "mean_center_error_normalized_valid_only": 95.42911175983197,
+    "median_center_error_normalized_valid_only": 27.555709443427013,
+    "mean_center_error_pixels_valid_only": 61.29136376571366,
+    "median_center_error_pixels_valid_only": 15.14648467100933,
+    "mean_center_error_diagonal_percent_valid_only": 5.342317410122541,
+    "median_center_error_diagonal_percent_valid_only": 1.6236262284723877
+  },
+  "note": "Visualization of saved model inference; not a new inference run.",
+  "predictions": [
+    {
+      "case": 1,
+      "image": "01_miss_00030.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00030.png",
+      "instruction": "See the remaining rest duration before the next set",
+      "target_name": "Rest timer countdown display",
+      "model_response": "(238, 895)",
+      "predicted_normalized": [
+        238,
+        895
+      ],
+      "predicted_pixels": [
+        92.82,
+        755.38
+      ],
+      "target_normalized": [
+        321,
+        887
+      ],
+      "bbox_pixels": [
+        92.0,
+        743.5,
+        158.0,
+        754.5
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 0.8799999999999955
+    },
+    {
+      "case": 2,
+      "image": "02_hit_00030.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00030.png",
+      "instruction": "View the placeholder for the upcoming Set 4 of Pull-ups",
+      "target_name": "Pull-ups Set 4 upcoming set placeholder",
+      "model_response": "(792, 805)",
+      "predicted_normalized": [
+        792,
+        805
+      ],
+      "predicted_pixels": [
+        308.88,
+        679.42
+      ],
+      "target_normalized": [
+        813,
+        806
+      ],
+      "bbox_pixels": [
+        289.5,
+        671.0,
+        344.5,
+        689.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 3,
+      "image": "03_hit_00030.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00030.png",
+      "instruction": "Tap Profile to access your account and settings",
+      "target_name": "Profile tab navigation button",
+      "model_response": "(892, 964)",
+      "predicted_normalized": [
+        892,
+        964
+      ],
+      "predicted_pixels": [
+        347.88,
+        813.616
+      ],
+      "target_normalized": [
+        900,
+        961
+      ],
+      "bbox_pixels": [
+        336.5,
+        805.5,
+        365.5,
+        816.5
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 4,
+      "image": "04_hit_00030.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00030.png",
+      "instruction": "Select Set 2 card to inspect its performance data",
+      "target_name": "Pull-ups Set 2 completed reps display",
+      "model_response": "(374, 805)",
+      "predicted_normalized": [
+        374,
+        805
+      ],
+      "predicted_pixels": [
+        145.86,
+        679.42
+      ],
+      "target_normalized": [
+        395,
+        806
+      ],
+      "bbox_pixels": [
+        126.5,
+        671.0,
+        181.5,
+        689.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 5,
+      "image": "05_hit_00043.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00043.png",
+      "instruction": "Use the scan feature to confirm package pickup or delivery",
+      "target_name": "Scan bottom navigation button",
+      "model_response": "(623, 935)",
+      "predicted_normalized": [
+        623,
+        935
+      ],
+      "predicted_pixels": [
+        242.97,
+        789.14
+      ],
+      "target_normalized": [
+        623,
+        925
+      ],
+      "bbox_pixels": [
+        233.0,
+        771.0,
+        253.0,
+        791.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 6,
+      "image": "06_hit_00043.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00043.png",
+      "instruction": "View the current in-transit status of the Martinez & Associates delivery",
+      "target_name": "Martinez delivery in-transit status badge",
+      "model_response": "(823, 895)",
+      "predicted_normalized": [
+        823,
+        895
+      ],
+      "predicted_pixels": [
+        320.97,
+        755.38
+      ],
+      "target_normalized": [
+        821,
+        891
+      ],
+      "bbox_pixels": [
+        284.0,
+        741.5,
+        356.0,
+        762.5
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 7,
+      "image": "07_miss_00043.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00043.png",
+      "instruction": "Open account and notification settings via the Settings label",
+      "target_name": "Settings bottom navigation label",
+      "model_response": "(879, 935)",
+      "predicted_normalized": [
+        879,
+        935
+      ],
+      "predicted_pixels": [
+        342.81,
+        789.14
+      ],
+      "target_normalized": [
+        874,
+        948
+      ],
+      "bbox_pixels": [
+        320.5,
+        794.5,
+        361.5,
+        805.5
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 5.360000000000014
+    },
+    {
+      "case": 8,
+      "image": "08_miss_00043.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00043.png",
+      "instruction": "Place the cursor to continue writing the ETA message",
+      "target_name": "Message compose text input",
+      "model_response": "(500, 482)",
+      "predicted_normalized": [
+        500,
+        482
+      ],
+      "predicted_pixels": [
+        195.0,
+        406.808
+      ],
+      "target_normalized": [
+        438,
+        784
+      ],
+      "bbox_pixels": [
+        170.0,
+        655.5,
+        172.0,
+        668.5
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 249.75330000622614
+    },
+    {
+      "case": 9,
+      "image": "09_hit_00047.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00047.png",
+      "instruction": "Focus the search bar to quickly locate a chat",
+      "target_name": "Chat list search input",
+      "model_response": "(500, 136)",
+      "predicted_normalized": [
+        500,
+        136
+      ],
+      "predicted_pixels": [
+        206.0,
+        121.312
+      ],
+      "target_normalized": [
+        529,
+        141
+      ],
+      "bbox_pixels": [
+        49.0,
+        116.0,
+        387.0,
+        136.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 10,
+      "image": "10_hit_00047.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00047.png",
+      "instruction": "Open the Houston Sports Press Corps group chat",
+      "target_name": "Houston Sports Press Corps group chat",
+      "model_response": "(526, 643)",
+      "predicted_normalized": [
+        526,
+        643
+      ],
+      "predicted_pixels": [
+        216.712,
+        573.556
+      ],
+      "target_normalized": [
+        449,
+        636
+      ],
+      "bbox_pixels": [
+        77.5,
+        556.0,
+        292.5,
+        578.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 11,
+      "image": "11_miss_00047.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00047.png",
+      "instruction": "Open the chat with Tyler Chen",
+      "target_name": "Tyler Chen chat",
+      "model_response": "(526, 738)",
+      "predicted_normalized": [
+        526,
+        738
+      ],
+      "predicted_pixels": [
+        216.712,
+        658.296
+      ],
+      "target_normalized": [
+        286,
+        722
+      ],
+      "bbox_pixels": [
+        77.5,
+        633.0,
+        158.5,
+        655.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 58.30523612849878
+    },
+    {
+      "case": 12,
+      "image": "12_hit_00047.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00047.png",
+      "instruction": "Go to the friends and contacts list",
+      "target_name": "Contacts tab",
+      "model_response": "(374, 962)",
+      "predicted_normalized": [
+        374,
+        962
+      ],
+      "predicted_pixels": [
+        154.088,
+        858.104
+      ],
+      "target_normalized": [
+        374,
+        956
+      ],
+      "bbox_pixels": [
+        142.0,
+        841.0,
+        166.0,
+        865.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 13,
+      "image": "13_miss_00069.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00069.png",
+      "instruction": "Toggle the post time between AM and PM",
+      "target_name": "Schedule AM/PM select dropdown",
+      "model_response": "(623, 759)",
+      "predicted_normalized": [
+        623,
+        759
+      ],
+      "predicted_pixels": [
+        510.86,
+        895.62
+      ],
+      "target_normalized": [
+        734,
+        738
+      ],
+      "bbox_pixels": [
+        511.0,
+        854.0,
+        693.0,
+        888.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 7.621285980725305
+    },
+    {
+      "case": 14,
+      "image": "14_miss_00069.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00069.png",
+      "instruction": "See when this tweet is set to go live",
+      "target_name": "Scheduled post time display",
+      "model_response": "(328, 564)",
+      "predicted_normalized": [
+        328,
+        564
+      ],
+      "predicted_pixels": [
+        268.96,
+        665.52
+      ],
+      "target_normalized": [
+        313,
+        572
+      ],
+      "bbox_pixels": [
+        152.0,
+        667.0,
+        362.0,
+        683.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 1.4800000000000182
+    },
+    {
+      "case": 15,
+      "image": "15_miss_00069.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00069.png",
+      "instruction": "Add an emoji to the current post draft",
+      "target_name": "Add emoji toolbar button",
+      "model_response": "(297, 534)",
+      "predicted_normalized": [
+        297,
+        534
+      ],
+      "predicted_pixels": [
+        243.54,
+        630.12
+      ],
+      "target_normalized": [
+        330,
+        525
+      ],
+      "bbox_pixels": [
+        261.0,
+        609.0,
+        281.0,
+        629.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 17.4958852305335
+    },
+    {
+      "case": 16,
+      "image": "16_miss_00069.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00069.png",
+      "instruction": "Tap the close icon to detach the image from this post",
+      "target_name": "Remove attached media button",
+      "model_response": "(234, 335)",
+      "predicted_normalized": [
+        234,
+        335
+      ],
+      "predicted_pixels": [
+        191.88,
+        395.3
+      ],
+      "target_normalized": [
+        245,
+        326
+      ],
+      "bbox_pixels": [
+        194.0,
+        378.0,
+        208.0,
+        392.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 3.9222952464086758
+    },
+    {
+      "case": 17,
+      "image": "17_hit_00073.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00073.png",
+      "instruction": "View the current session status indicator",
+      "target_name": "Session status READY badge",
+      "model_response": "(823, 165)",
+      "predicted_normalized": [
+        823,
+        165
+      ],
+      "predicted_pixels": [
+        325.908,
+        79.86
+      ],
+      "target_normalized": [
+        821,
+        149
+      ],
+      "bbox_pixels": [
+        300.5,
+        64.0,
+        349.5,
+        80.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 18,
+      "image": "18_miss_00073.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00073.png",
+      "instruction": "Read which grove is being tracked in this session",
+      "target_name": "Session title - Olive Grove #14",
+      "model_response": "(238, 249)",
+      "predicted_normalized": [
+        238,
+        249
+      ],
+      "predicted_pixels": [
+        94.248,
+        120.516
+      ],
+      "target_normalized": [
+        285,
+        229
+      ],
+      "bbox_pixels": [
+        55.0,
+        103.5,
+        171.0,
+        118.5
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 2.0160000000000053
+    },
+    {
+      "case": 19,
+      "image": "19_miss_00073.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00073.png",
+      "instruction": "View the humidity environmental data chip",
+      "target_name": "Humidity environmental chip",
+      "model_response": "(456, 523)",
+      "predicted_normalized": [
+        456,
+        523
+      ],
+      "predicted_pixels": [
+        180.576,
+        253.132
+      ],
+      "target_normalized": [
+        485,
+        512
+      ],
+      "bbox_pixels": [
+        179.0,
+        244.0,
+        205.0,
+        252.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 1.132000000000005
+    },
+    {
+      "case": 20,
+      "image": "20_miss_00073.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00073.png",
+      "instruction": "Cancel and discard the Olive Grove #14 session",
+      "target_name": "Discard session button",
+      "model_response": "(856, 926)",
+      "predicted_normalized": [
+        856,
+        926
+      ],
+      "predicted_pixels": [
+        338.976,
+        448.184
+      ],
+      "target_normalized": [
+        843,
+        897
+      ],
+      "bbox_pixels": [
+        329.0,
+        429.0,
+        339.0,
+        439.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 9.184000000000026
+    },
+    {
+      "case": 21,
+      "image": "21_hit_00079.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00079.png",
+      "instruction": "Tap the Warsaw predictive suggestion to autocomplete the search",
+      "target_name": "Predictive text suggestion 'Warsaw'",
+      "model_response": "(123, 725)",
+      "predicted_normalized": [
+        123,
+        725
+      ],
+      "predicted_pixels": [
+        47.97,
+        611.9
+      ],
+      "target_normalized": [
+        131,
+        726
+      ],
+      "bbox_pixels": [
+        12.5,
+        604.0,
+        89.5,
+        622.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 22,
+      "image": "22_hit_00079.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00079.png",
+      "instruction": "Click the L keyboard button to append l to the search text",
+      "target_name": "Keyboard key L",
+      "model_response": "(892, 845)",
+      "predicted_normalized": [
+        892,
+        845
+      ],
+      "predicted_pixels": [
+        347.88,
+        713.18
+      ],
+      "target_normalized": [
+        900,
+        842
+      ],
+      "bbox_pixels": [
+        334.5,
+        690.0,
+        367.5,
+        732.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 23,
+      "image": "23_hit_00079.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00079.png",
+      "instruction": "Press the J key to type the letter j",
+      "target_name": "Keyboard key J",
+      "model_response": "(700, 846)",
+      "predicted_normalized": [
+        700,
+        846
+      ],
+      "predicted_pixels": [
+        273.0,
+        714.024
+      ],
+      "target_normalized": [
+        700,
+        842
+      ],
+      "bbox_pixels": [
+        256.5,
+        690.0,
+        289.5,
+        732.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 24,
+      "image": "24_hit_00079.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00079.png",
+      "instruction": "Press the F key to type the letter f",
+      "target_name": "Keyboard key F",
+      "model_response": "(403, 846)",
+      "predicted_normalized": [
+        403,
+        846
+      ],
+      "predicted_pixels": [
+        157.17,
+        714.024
+      ],
+      "target_normalized": [
+        397,
+        842
+      ],
+      "bbox_pixels": [
+        138.5,
+        690.0,
+        171.5,
+        732.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 25,
+      "image": "25_hit_00104.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00104.png",
+      "instruction": "Add a bookmark at the current timestamp",
+      "target_name": "Add bookmark button",
+      "model_response": "(879, 452)",
+      "predicted_normalized": [
+        879,
+        452
+      ],
+      "predicted_pixels": [
+        342.81,
+        381.488
+      ],
+      "target_normalized": [
+        874,
+        459
+      ],
+      "bbox_pixels": [
+        330.0,
+        375.0,
+        352.0,
+        399.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 26,
+      "image": "26_hit_00104.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00104.png",
+      "instruction": "Press Rouen Cathedral: Time in Stone to switch to that chapter",
+      "target_name": "Chapter 8 - Rouen Cathedral: Time in Stone list item",
+      "model_response": "(328, 935)",
+      "predicted_normalized": [
+        328,
+        935
+      ],
+      "predicted_pixels": [
+        127.92,
+        789.14
+      ],
+      "target_normalized": [
+        541,
+        935
+      ],
+      "bbox_pixels": [
+        60.0,
+        781.0,
+        362.0,
+        797.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 27,
+      "image": "27_miss_00104.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00104.png",
+      "instruction": "Replay the last 30 seconds of audio",
+      "target_name": "Rewind 30 seconds button",
+      "model_response": "(267, 584)",
+      "predicted_normalized": [
+        267,
+        584
+      ],
+      "predicted_pixels": [
+        104.13,
+        492.896
+      ],
+      "target_normalized": [
+        279,
+        668
+      ],
+      "bbox_pixels": [
+        106.0,
+        561.0,
+        112.0,
+        567.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 68.12966839784264
+    },
+    {
+      "case": 28,
+      "image": "28_hit_00104.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00104.png",
+      "instruction": "Use the loud speaker icon to set volume to high",
+      "target_name": "Volume high icon",
+      "model_response": "(923, 605)",
+      "predicted_normalized": [
+        923,
+        605
+      ],
+      "predicted_pixels": [
+        359.97,
+        510.62
+      ],
+      "target_normalized": [
+        908,
+        597
+      ],
+      "bbox_pixels": [
+        346.0,
+        496.0,
+        362.0,
+        512.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 29,
+      "image": "29_hit_00108.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00108.png",
+      "instruction": "Filter results by vegetarian menu availability",
+      "target_name": "Vegetarian food type filter option",
+      "model_response": "(374, 299)",
+      "predicted_normalized": [
+        374,
+        299
+      ],
+      "predicted_pixels": [
+        134.64,
+        233.22
+      ],
+      "target_normalized": [
+        403,
+        309
+      ],
+      "bbox_pixels": [
+        100.0,
+        227.5,
+        190.0,
+        254.5
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 30,
+      "image": "30_miss_00108.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00108.png",
+      "instruction": "Filter results to include farmers markets",
+      "target_name": "Farmers Market market type filter option",
+      "model_response": "(236, 451)",
+      "predicted_normalized": [
+        236,
+        451
+      ],
+      "predicted_pixels": [
+        84.96,
+        351.78
+      ],
+      "target_normalized": [
+        244,
+        427
+      ],
+      "bbox_pixels": [
+        28.5,
+        319.5,
+        147.5,
+        346.5
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 5.279999999999973
+    },
+    {
+      "case": 31,
+      "image": "31_hit_00108.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00108.png",
+      "instruction": "Toggle the Gluten-Free filter option on or off",
+      "target_name": "Gluten-Free food type filter option",
+      "model_response": "(623, 319)",
+      "predicted_normalized": [
+        623,
+        319
+      ],
+      "predicted_pixels": [
+        224.28,
+        248.82
+      ],
+      "target_normalized": [
+        683,
+        309
+      ],
+      "bbox_pixels": [
+        197.5,
+        227.5,
+        294.5,
+        254.5
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 32,
+      "image": "32_hit_00108.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00108.png",
+      "instruction": "Add Vegan as a dietary preference filter",
+      "target_name": "Vegan food type filter option",
+      "model_response": "(154, 319)",
+      "predicted_normalized": [
+        154,
+        319
+      ],
+      "predicted_pixels": [
+        55.44,
+        248.82
+      ],
+      "target_normalized": [
+        167,
+        309
+      ],
+      "bbox_pixels": [
+        28.5,
+        227.5,
+        91.5,
+        254.5
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 33,
+      "image": "33_hit_00112.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00112.png",
+      "instruction": "Press Accounts in the bottom nav to see account list",
+      "target_name": "Accounts nav label",
+      "model_response": "(623, 954)",
+      "predicted_normalized": [
+        623,
+        954
+      ],
+      "predicted_pixels": [
+        242.97,
+        805.176
+      ],
+      "target_normalized": [
+        623,
+        961
+      ],
+      "bbox_pixels": [
+        221.5,
+        805.0,
+        264.5,
+        817.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 34,
+      "image": "34_miss_00112.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00112.png",
+      "instruction": "Open the list of 3 active credit accounts",
+      "target_name": "Active accounts metric card",
+      "model_response": "(826, 574)",
+      "predicted_normalized": [
+        826,
+        574
+      ],
+      "predicted_pixels": [
+        322.14,
+        484.456
+      ],
+      "target_normalized": [
+        813,
+        547
+      ],
+      "bbox_pixels": [
+        272.0,
+        450.0,
+        362.0,
+        474.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 10.456000000000017
+    },
+    {
+      "case": 35,
+      "image": "35_miss_00112.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00112.png",
+      "instruction": "Click the alert to learn more about the +12 point increase",
+      "target_name": "Score increase alert banner",
+      "model_response": "(897, 165)",
+      "predicted_normalized": [
+        897,
+        165
+      ],
+      "predicted_pixels": [
+        349.83,
+        139.26
+      ],
+      "target_normalized": [
+        421,
+        172
+      ],
+      "bbox_pixels": [
+        71.0,
+        137.0,
+        257.0,
+        153.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 92.82999999999998
+    },
+    {
+      "case": 36,
+      "image": "36_hit_00112.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00112.png",
+      "instruction": "Tap the View all link to expand all credit score factors",
+      "target_name": "View all score factors link",
+      "model_response": "(908, 653)",
+      "predicted_normalized": [
+        908,
+        653
+      ],
+      "predicted_pixels": [
+        354.12,
+        551.132
+      ],
+      "target_normalized": [
+        897,
+        661
+      ],
+      "bbox_pixels": [
+        328.5,
+        551.0,
+        371.5,
+        565.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 37,
+      "image": "37_hit_00117.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00117.png",
+      "instruction": "Navigate to the Vitals app settings",
+      "target_name": "Vitals watch app chip",
+      "model_response": "(459, 362)",
+      "predicted_normalized": [
+        459,
+        362
+      ],
+      "predicted_pixels": [
+        179.01,
+        305.528
+      ],
+      "target_normalized": [
+        446,
+        360
+      ],
+      "bbox_pixels": [
+        163.0,
+        293.0,
+        185.0,
+        315.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 38,
+      "image": "38_miss_00117.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00117.png",
+      "instruction": "Read the device name for the connected smartwatch",
+      "target_name": "Watch name label - Elder's Watch",
+      "model_response": "(623, 179)",
+      "predicted_normalized": [
+        623,
+        179
+      ],
+      "predicted_pixels": [
+        242.97,
+        151.076
+      ],
+      "target_normalized": [
+        667,
+        159
+      ],
+      "bbox_pixels": [
+        146.0,
+        124.5,
+        374.0,
+        143.5
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 7.575999999999993
+    },
+    {
+      "case": 39,
+      "image": "39_miss_00117.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00117.png",
+      "instruction": "Navigate to Moon Phase Alerts settings",
+      "target_name": "Moon Phase Alerts settings row",
+      "model_response": "(928, 665)",
+      "predicted_normalized": [
+        928,
+        665
+      ],
+      "predicted_pixels": [
+        361.92,
+        561.26
+      ],
+      "target_normalized": [
+        490,
+        659
+      ],
+      "bbox_pixels": [
+        70.0,
+        547.5,
+        312.0,
+        564.5
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 49.920000000000016
+    },
+    {
+      "case": 40,
+      "image": "40_miss_00117.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00117.png",
+      "instruction": "Tap to view the Allow Notifications setting details",
+      "target_name": "Allow Notifications settings row",
+      "model_response": "(500, 482)",
+      "predicted_normalized": [
+        500,
+        482
+      ],
+      "predicted_pixels": [
+        195.0,
+        406.808
+      ],
+      "target_normalized": [
+        490,
+        495
+      ],
+      "bbox_pixels": [
+        70.0,
+        409.5,
+        312.0,
+        426.5
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 2.6920000000000073
+    },
+    {
+      "case": 41,
+      "image": "41_miss_00122.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00122.png",
+      "instruction": "View pricing details for Kalamata Olives in the cart",
+      "target_name": "Kalamata Olives cart item",
+      "model_response": "(325, 697)",
+      "predicted_normalized": [
+        325,
+        697
+      ],
+      "predicted_pixels": [
+        266.5,
+        822.46
+      ],
+      "target_normalized": [
+        855,
+        619
+      ],
+      "bbox_pixels": [
+        643.0,
+        723.0,
+        759.0,
+        737.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 386.07727413045177
+    },
+    {
+      "case": 42,
+      "image": "42_miss_00122.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00122.png",
+      "instruction": "Focus the search input to begin searching",
+      "target_name": "Search input field",
+      "model_response": "(500, 126)",
+      "predicted_normalized": [
+        500,
+        126
+      ],
+      "predicted_pixels": [
+        410.0,
+        148.68
+      ],
+      "target_normalized": [
+        52,
+        109
+      ],
+      "bbox_pixels": [
+        34.0,
+        120.0,
+        52.0,
+        138.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 358.1592695994339
+    },
+    {
+      "case": 43,
+      "image": "43_miss_00122.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00122.png",
+      "instruction": "Select the hummus item in the cart to modify quantity",
+      "target_name": "Roasted Red Pepper Hummus cart item",
+      "model_response": "(254, 637)",
+      "predicted_normalized": [
+        254,
+        637
+      ],
+      "predicted_pixels": [
+        208.28,
+        751.66
+      ],
+      "target_normalized": [
+        855,
+        715
+      ],
+      "bbox_pixels": [
+        643.0,
+        837.0,
+        759.0,
+        851.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 443.0173743771231
+    },
+    {
+      "case": 44,
+      "image": "44_miss_00122.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00122.png",
+      "instruction": "Decrement the Sea Salt Pita Chips quantity",
+      "target_name": "Decrease Sea Salt Pita Chips quantity button",
+      "model_response": "(297, 643)",
+      "predicted_normalized": [
+        297,
+        643
+      ],
+      "predicted_pixels": [
+        243.54,
+        758.74
+      ],
+      "target_normalized": [
+        146,
+        727
+      ],
+      "bbox_pixels": [
+        107.0,
+        845.0,
+        133.0,
+        871.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 140.21369120025332
+    },
+    {
+      "case": 45,
+      "image": "45_miss_00123.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00123.png",
+      "instruction": "Switch to the third image in the product gallery",
+      "target_name": "Product image carousel third dot indicator",
+      "model_response": "(497, 368)",
+      "predicted_normalized": [
+        497,
+        368
+      ],
+      "predicted_pixels": [
+        213.71,
+        342.976
+      ],
+      "target_normalized": [
+        528,
+        394
+      ],
+      "bbox_pixels": [
+        224.0,
+        364.0,
+        230.0,
+        370.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 23.407107382160657
+    },
+    {
+      "case": 46,
+      "image": "46_hit_00123.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00123.png",
+      "instruction": "See what customers are saying about the MacBook Pro",
+      "target_name": "Product reviews count link",
+      "model_response": "(328, 529)",
+      "predicted_normalized": [
+        328,
+        529
+      ],
+      "predicted_pixels": [
+        141.04,
+        493.028
+      ],
+      "target_normalized": [
+        409,
+        538
+      ],
+      "bbox_pixels": [
+        133.0,
+        493.0,
+        219.0,
+        509.0
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    },
+    {
+      "case": 47,
+      "image": "47_miss_00123.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00123.png",
+      "instruction": "Click the cart button to proceed toward checkout",
+      "target_name": "View cart icon button in bottom action bar",
+      "model_response": "(108, 932)",
+      "predicted_normalized": [
+        108,
+        932
+      ],
+      "predicted_pixels": [
+        46.44,
+        868.624
+      ],
+      "target_normalized": [
+        100,
+        948
+      ],
+      "bbox_pixels": [
+        32.0,
+        873.0,
+        54.0,
+        895.0
+      ],
+      "bbox_hit": false,
+      "distance_outside_bbox_pixels": 4.375999999999976
+    },
+    {
+      "case": 48,
+      "image": "48_hit_00123.png",
+      "source_image": "/home/codebiney/project/robot_sim/molmo2/molmo/data/guisyn/00123.png",
+      "instruction": "Inspect the first comparison product",
+      "target_name": "Current MacBook Pro product in comparison slot",
+      "model_response": "(108, 853)",
+      "predicted_normalized": [
+        108,
+        853
+      ],
+      "predicted_pixels": [
+        46.44,
+        794.996
+      ],
+      "target_normalized": [
+        98,
+        871
+      ],
+      "bbox_pixels": [
+        17.5,
+        787.5,
+        66.5,
+        836.5
+      ],
+      "bbox_hit": true,
+      "distance_outside_bbox_pixels": 0.0
+    }
+  ]
+}

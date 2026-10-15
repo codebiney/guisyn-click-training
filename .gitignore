@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.aws/
+.codex/
+.agents/
+vendor/
+runs/
+data/*
+!data/guisyn-v5-label-overrides.json
+*.safetensors
+*.pt
+*.bin
+*.log
+*.pid

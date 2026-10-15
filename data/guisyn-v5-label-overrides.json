@@ -1,0 +1,110 @@
+[
+  {
+    "source_id": "grounding-claudesonn-mobile_task__transla-7c6c70cc",
+    "annotation_index": 10,
+    "target_name": "Source text input area",
+    "old_bbox_pixels": [
+      173.0,
+      295.0,
+      175.0,
+      315.0
+    ],
+    "bbox_pixels": [
+      13,
+      231,
+      730,
+      361
+    ],
+    "reason": "Visually reviewed screenshot: replace text/caret extent with visible key or editable text area; exclude adjacent controls."
+  },
+  {
+    "source_id": "grounding-claudesonn-mobile_task__transla-7c6c70cc",
+    "annotation_index": 27,
+    "target_name": "Keyboard key T",
+    "old_bbox_pixels": [
+      337.0,
+      947.0,
+      341.0,
+      963.0
+    ],
+    "bbox_pixels": [
+      310,
+      934,
+      369,
+      976
+    ],
+    "reason": "Visually reviewed screenshot: replace text/caret extent with visible key or editable text area; exclude adjacent controls."
+  },
+  {
+    "source_id": "grounding-claudesonn-mobile_task__transla-7c6c70cc",
+    "annotation_index": 30,
+    "target_name": "Keyboard key I",
+    "old_bbox_pixels": [
+      532.5,
+      947.0,
+      535.5,
+      963.0
+    ],
+    "bbox_pixels": [
+      505,
+      934,
+      564,
+      976
+    ],
+    "reason": "Visually reviewed screenshot: replace text/caret extent with visible key or editable text area; exclude adjacent controls."
+  },
+  {
+    "source_id": "grounding-claudesonn-mobile_task__transla-7c6c70cc",
+    "annotation_index": 36,
+    "target_name": "Keyboard key F",
+    "old_bbox_pixels": [
+      304.0,
+      994.0,
+      308.0,
+      1010.0
+    ],
+    "bbox_pixels": [
+      277,
+      981,
+      336,
+      1023
+    ],
+    "reason": "Visually reviewed screenshot: replace text/caret extent with visible key or editable text area; exclude adjacent controls."
+  },
+  {
+    "source_id": "grounding-claudesonn-mobile_task__transla-7c6c70cc",
+    "annotation_index": 39,
+    "target_name": "Keyboard key J",
+    "old_bbox_pixels": [
+      499.5,
+      994.0,
+      502.5,
+      1010.0
+    ],
+    "bbox_pixels": [
+      473,
+      981,
+      532,
+      1023
+    ],
+    "reason": "Visually reviewed screenshot: replace text/caret extent with visible key or editable text area; exclude adjacent controls."
+  },
+  {
+    "source_id": "grounding-claudesonn-mobile_task__transla-7c6c70cc",
+    "annotation_index": 41,
+    "target_name": "Keyboard key L",
+    "old_bbox_pixels": [
+      629.5,
+      994.0,
+      632.5,
+      1010.0
+    ],
+    "bbox_pixels": [
+      603,
+      981,
+      662,
+      1023
+    ],
+    "reason": "Visually reviewed screenshot: replace text/caret extent with visible key or editable text area; exclude adjacent controls."
+  }
+]

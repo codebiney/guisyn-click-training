@@ -1,0 +1,29 @@
+{
+  "completed_steps": 2048,
+  "selected_step": 1536,
+  "validation": {
+    "step": 1536,
+    "selection_error": 97.58349981856894,
+    "examples": 48,
+    "valid_coordinates": 48,
+    "valid_rate": 1.0,
+    "bbox_hits": 23,
+    "bbox_accuracy": 0.4791666666666667,
+    "screenshot_macro_bbox_accuracy": 0.4791666666666667,
+    "exact_center_matches": 0,
+    "center_within_normalized_units": {
+      "10": 0.22916666666666666,
+      "25": 0.4166666666666667,
+      "50": 0.75,
+      "100": 0.8333333333333334
+    },
+    "invalid_predictions_count_as_misses": true,
+    "mean_center_error_normalized_valid_only": 97.58349981856891,
+    "median_center_error_normalized_valid_only": 28.370636754483506,
+    "mean_center_error_pixels_valid_only": 60.30405723112849,
+    "median_center_error_pixels_valid_only": 13.096810387627073,
+    "mean_center_error_diagonal_percent_valid_only": 5.4084899668672435,
+    "median_center_error_diagonal_percent_valid_only": 1.572699668953073
+  },
+  "elapsed_seconds": 11627.8
+}

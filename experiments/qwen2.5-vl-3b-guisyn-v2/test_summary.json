@@ -1,0 +1,68 @@
+{
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "checkpoint": "/home/codebiney/project/robot_sim/molmo2/molmo/runs/qwen2.5-vl-3b-guisyn-v2/final",
+  "adapter_sha256": "576b607ecba5e0359d4015cb4a4c69de5f006f66edf6f96e3e74afd0639bf80b",
+  "base_revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+  "dataset": "allenai/MolmoPoint-GUISyn",
+  "screenshots": 12,
+  "split": "saved screenshot-level holdout from the 128-image mobile training subset",
+  "metric": "Predicted click inside original target rectangle (inclusive edges).",
+  "output_contract": "Exactly one integer (x, y) pair in 0..1000; malformed/out-of-range outputs are misses.",
+  "generation": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 32,
+    "min_pixels": 50176,
+    "max_pixels": 602112
+  },
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "torch": "2.14.1+cu130",
+  "elapsed_seconds": 101.66,
+  "peak_cuda_allocated_mib": 3570.6,
+  "finetuned": {
+    "examples": 47,
+    "valid_coordinates": 47,
+    "valid_rate": 1.0,
+    "bbox_hits": 15,
+    "bbox_accuracy": 0.3191489361702128,
+    "screenshot_macro_bbox_accuracy": 0.3263888888888889,
+    "exact_center_matches": 1,
+    "center_within_normalized_units": {
+      "10": 0.19148936170212766,
+      "25": 0.3829787234042553,
+      "50": 0.574468085106383,
+      "100": 0.7659574468085106
+    },
+    "invalid_predictions_count_as_misses": true,
+    "mean_center_error_normalized_valid_only": 104.67198776052929,
+    "median_center_error_normalized_valid_only": 32.99244938932003,
+    "mean_center_error_pixels_valid_only": 88.89745221808124,
+    "median_center_error_pixels_valid_only": 23.5413049765726,
+    "mean_center_error_diagonal_percent_valid_only": 8.141467098642057,
+    "median_center_error_diagonal_percent_valid_only": 2.0783566574733925
+  },
+  "baseline": {
+    "examples": 47,
+    "valid_coordinates": 28,
+    "valid_rate": 0.5957446808510638,
+    "bbox_hits": 0,
+    "bbox_accuracy": 0.0,
+    "screenshot_macro_bbox_accuracy": 0.0,
+    "exact_center_matches": 0,
+    "center_within_normalized_units": {
+      "10": 0.0,
+      "25": 0.0,
+      "50": 0.02127659574468085,
+      "100": 0.02127659574468085
+    },
+    "invalid_predictions_count_as_misses": true,
+    "mean_center_error_normalized_valid_only": 368.72837331547333,
+    "median_center_error_normalized_valid_only": 325.6471050203612,
+    "mean_center_error_pixels_valid_only": 240.7206506885357,
+    "median_center_error_pixels_valid_only": 193.28189073945515,
+    "mean_center_error_diagonal_percent_valid_only": 21.810228332256223,
+    "median_center_error_diagonal_percent_valid_only": 18.145718277288864
+  },
+  "bbox_accuracy_change_percentage_points": 31.914893617021278
+}
